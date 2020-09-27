@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+       .container{ 
+           width: 900px;
+           border: 3px solid black;
+           margin: 10px auto;
+           font-family: sans-serif;
+           background-color: black;
+        }
+       .item{
+        border: 3px solid black;
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background-color: rgb(106, 240, 240);
+        }
+        #fruits{
+            float: left;
+             width: 48%;
+
+        }
+        #vegetables{
+            float: left;
+             width: 48%;
+        }
+        #grains{
+            /* float: left; */
+             width: 100%;
+             clear: both;
+        }
+        h2,p{
+            text-align: left;
+        }
+        #color{
+            color: white;
+            margin: auto;
+            width: 455px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="color" class="container">WELCOME TO MY STORE</h1>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h2>Fruits</h2>
+            <p id="furitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, animi laborum autem voluptates dolores eum, tenetur saepe officia eius iste earum facere non dolorum? Numquam . Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, perspiciatis ea explicabo eaque enim exercitationem at nesciunt laudantium dolores voluptate neque officia incidunt ab cum laborum fugiat accusantium! Vero itaque possimus nulla assumenda delectus.</p>
+        </div>
+        <div id="vegetables" class="item">
+            <h2>vegetables</h2>
+            <p id="vegetablespara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, animi laborum autem voluptates dolores eum, tenetur saepe officia eius iste earum facere non dolorum? Numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in dicta, iste voluptate ab voluptatum sit quas repudiandae molestiae asperiores nemo similique voluptatem. Quasi voluptatem possimus odit delectus veritatis adipisci id ad iste cumque.  </p>
+        </div>
+        <div id="grains" class="item">
+            <h2>grains</h2>
+            <p id="grainspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, animi laborum autem voluptates dolores eum, tenetur saepe officia eius iste earum facere non dolorum? Numquam.</p>
+        </div>
+        <div id="pulses" class="item">
+            <h2>pulses</h2>
+            <p id="pulsesspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, animi laborum autem voluptates dolores eum, tenetur saepe officia eius iste earum facere non dolorum? Numquam.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
