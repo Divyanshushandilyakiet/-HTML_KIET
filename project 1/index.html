@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divyanshu's Fitness</title>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0px;
             padding: 0px;
-            background: url(img/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+            background-image: url("img/mr-lee-f4RBYsY2hxA-unsplash.jpg");
             background-size: 100%;
             color: white;
+            font-family: 'Oswald', sans-serif;
         }
 
         .left {
@@ -20,11 +21,13 @@
             left: 34px;
             top: 20px;
             display: inline-block;
-            border: 2px solid red
+            /* border: 2px solid red; */
         }
 
         .left img {
-            width: 130px;
+            width: 120px;
+            line-height: 19px;
+            font-size: 26px;
 
         }
 
@@ -36,7 +39,7 @@
             display: block;
             width: 33%;
             margin: 20px auto;
-            border: 2px solid yellow;
+            /* border: 2px solid yellow; */
         }
 
         .right {
@@ -44,16 +47,19 @@
             right: 34px;
             top: 20px;
             display: inline-block;
-            border: 2px solid white;
+            /* border: 2px solid white; */
         }
-        .navbar{
+
+        .navbar {
             display: inline-block;
         }
-        .navbar li{
+
+        .navbar li {
             display: inline-block;
             font-size: 15px;
         }
-        .navbar li a{
+
+        .navbar li a {
             color: white;
             text-decoration: none;
             padding: 34px 22px;
@@ -64,26 +70,62 @@
             text-decoration: underline;
             color: rgb(166, 166, 245);
         }
-        .btn{
-            margin: 0px 9px;
+
+        .btn {
+            margin: 13px 19px;
             background-color: white;
             color: black;
-            padding: 4px 14px;
-            border-radius: 10px ;
+            padding: 5px 26px;
+            border: gray;
+            border-radius: 10px;
             font-size: 10px;
             cursor: pointer;
+            font-family: 'Oswald', sans-serif;
+
         }
-        .btn:hover{
+
+        .btn:hover {
             background-color: rgb(70, 67, 67);
         }
+
+        .container {
+            border-radius: 3px;
+            /* border: 2px solid white; */
+            margin: 114px 93px;
+            padding: 25px 83px;
+            width: 24%;
+            border-radius: 26px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 221px;
+            padding: 3px;
+            margin: 11px auto;
+            border-radius: 10px;
+            border: 2px solid darkgoldenrod;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 64%;
+            margin: 20px auto;
+        }
     </style>
-    <\head>
+</head>
+
 <body>
-    <header class="header">  
+    <header class="header">
         <!-- left for logo -->
         <div class="left">
-            <img src="E:\project 1\img\download_2.jpg" alt="">
-            <div>Divyanshu's fitness</div>
+            <img src="E:\project 1\img\81e9c3e69a0e4178dec71a8bd778543f.jpg" alt="">
+            <div>OM FITNESS</div>
         </div>
         <!-- mid for navigationbar -->
         <div class="mid">
@@ -100,6 +142,24 @@
             <button class="btn">E-mail us</button>
         </div>
     </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM IN MODINAGAR NOW</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phonr number">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
 
 </body>
 
