@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    .container {
+        height: 544px;
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+    }
+
+    .item {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(20, 255, 243);
+        border: 3px solid rgb(3, 56, 70);
+        padding: 4px;
+        margin: 10px;
+    }
+
+    #item1 {
+        flex-shrink: 3;
+    }
+    #item2 {}
+    #item3 { 
+        flex-shrink: 5;
+    }
+</style>
+
+<body>
+    <h1>This is flexbox</h1>
+    <div class="container">
+        <div class="item" id="item1">First box</div>
+        <div class="item" id="item2">Second box</div>
+        <div class="item" id="item3">Third box</div>
+    </div>
+
+</body>
+
+</html>
