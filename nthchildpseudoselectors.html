@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        .container {
+            display: block;
+            width: 233px;
+            margin: auto;
+        }
+
+        input {
+            display: block;
+        }
+
+        input[type='text'] {
+            background-color: rgb(161, 161, 197);
+            border: 3px solid black;
+        }
+
+        input[type='password'] {
+            background-color: rgb(94, 110, 101);
+            border: 3px solid black;
+        }
+
+        /* THis will apply the css on Third chlid */
+        li:nth-child(even) {
+            color: seagreen;
+            background-color: rgb(161, 161, 197);
+            border: 2px solid black;
+
+        }
+
+        li:nth-child(odd) {
+            color: tomato;
+            background-color: rgb(94, 110, 101);
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="form-control">
+            <input type="text" placeholder="Enter your name ">
+            <input type="Password" placeholder="Enter your password ">
+            <input type="submit" value="Submit">
+        </form>
+        <ul>
+            <li class="item" id="item-1">Item1</li>
+            <li class="item" id="item-2">Item2</li>
+            <li class="item" id="item-3">Item3</li>
+            <li class="item" id="item-4">Item4</li>
+            <li class="item" id="item-5">Item5</li>
+            <li class="item" id="item-6">Item6</li>
+            <li class="item" id="item-7">Item7</li>
+            <li class="item" id="item-8">Item8</li>
+            <li class="item" id="item-9">Item9</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
