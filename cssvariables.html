@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css variables\custom properties</title>
+    <style>
+        :root {
+            --primary-color: rgb(75, 221, 7);
+            --secondary-color: rgb(35, 51, 30);
+            --maxw:533px;
+
+
+        }
+
+        .box {
+            /* --box-color:crimson; */
+            height: 200px;
+            width: 200px;
+            background-color: var(--primary-color);
+            border: cyan;
+            margin: 2px 9px;
+            padding: 2px 9px;
+            box-shadow: -4px -4px var(--secondary-color);
+        }
+
+        .container {
+            max-width: var(--maxw);
+            margin: auto;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+
+</html>
