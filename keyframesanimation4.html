@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and animations fill-mode</title>
+</head>
+<style>
+    .container {
+        background-color: green;
+    }
+
+    .box {
+        background-color: orange;
+        width: 80px;
+        height: 100px;
+        position: relative;
+        animation-name: divyanshu;
+        animation-duration: 20s;
+        animation-iteration-count: 3;
+    }
+
+    @keyframes divyanshu {
+        0% {
+            top: 0%;
+            left: 20%;
+        }
+
+        20% {
+            top: 20%;
+            left: 40%;
+        }
+
+        40% {
+            top: 40%;
+            left: 60%;
+        }
+
+        60% {
+            top: 60%;
+            left: 80%;
+        }
+
+        80% {
+            top: 80%;
+            left: 100%;
+        }
+
+        100% {
+            top: 100%;
+            left: 0%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            divyanshu
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
