@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and animations fill-mode</title>
+</head>
+<style>
+    .container {
+        background-color: green;
+    }
+
+    .box {
+        background-color: orange;
+        width: 12px;
+        height: 100px;
+        position: relative;
+        animation-name: div;
+        animation-duration: 10s;
+        animation-iteration-count: 3;
+       /* animation-timing-function: ease-in; */
+       /* animation-timing-function: ease-out; */
+        animation-timing-function: ease-in-out; 
+        animation-delay: 3s;
+    }
+    @keyframes div{
+        from{ 
+            width: 1%;
+        }
+        to{ 
+         width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            divyanshu
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
