@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css transitions</title>
+    <style>
+        body{
+            background-color: rgb(136, 247, 9);
+        }
+        #box{
+            margin: 2px;
+            padding: 8px;
+            display: flex;
+            height: 300px;
+            width: 300px;
+            background-color: rgb(10, 10, 10);
+            color: white;
+            justify-content: center;
+            align-items: center;
+            /* transition-property: background-color;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay:1s ; */
+            /* transition shorthand property in one line */
+              transition: background-color 3s ease-in-out 1s;
+
+              transition: all 1s ease-in-out;
+        }
+        #box:hover{
+            background-color: rgb(136, 247, 9); 
+            width: 400px;
+            height: 400px;
+            font-size: 60px;
+        }
+        #box1{
+            padding: 6px;
+            margin: 8px;
+            display: flex;
+            height: 300px;
+            width: 300px;
+            background-color: rgb(10, 10, 10);
+            color: white;
+            justify-content: center;
+            align-items: center;
+            /* transition-property: background-color;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay:1s ; */
+            /* transition shorthand property in one line */
+              transition: background-color 3s ease-in-out 1s;
+
+              transition: all 1s ease-in-out;
+        }
+        #box1:hover{
+            background-color: rgb(136, 247, 9); 
+            width: 400px;
+            height: 400px;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS TRANSITIONS</h1>
+    <div class="container">
+        <div id="box">
+        DIVYANSHU 
+        </div>
+        <div id="box1">
+            SHANDILYA'S
+        </div>
+    </div>
+    
+</body>
+</html>
