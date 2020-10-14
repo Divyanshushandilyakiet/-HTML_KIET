@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSFORM</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            background-color: darkgreen;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(252, 97, 7);
+            border: 2px solid black;
+            width: 400px;
+            height: 400px;
+            transition: all 0.5s ease-in;
+        }
+        .box:hover{
+            /* transform: translate(150px); */
+            /* transform: translateY(150px); */
+            transform: translate(70px , 150px);
+
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            JAY MHADEVA
+        </div>
+    </div>
+
+</body>
+
+</html>
