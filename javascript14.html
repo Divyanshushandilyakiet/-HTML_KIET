@@ -11,24 +11,31 @@
     </div>
     <script>
         // Arrow function
-         greet = ()=> {
-            console.log('Good morning');
-         }
+        // let greet = () => {
+        //     console.log('Good morning');
+        // }
+           
+        let greet = () => console.log('Good morning');
+              
          
          // let sum = (a, b)=>{
         //     return a+b;
         // }; 
 
         let sum = (a, b) => a + b;
-
+        let half = a => a/2; 
+        
+        
         // function greet() {
         //     console.log('Good morning');
         // }
+        
         greet();
         
          setTimeout(() => {
             console.log("We are inside the setTimeout");
         }, 5000);
+        
     </script>
     
 </body>
