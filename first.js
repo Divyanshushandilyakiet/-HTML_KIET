@@ -1,3 +1,6 @@
 const fs = require("fs");
-const text = fs.readFileSync("dele.txt","utf-8");
+let text = fs.readFileSync("dele.txt","utf-8");
+text = text.replace("delete","save");
+
+console.log("I want to ")
 console.log(text);
