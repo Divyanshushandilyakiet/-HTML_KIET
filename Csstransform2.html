@@ -6,7 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
+    <title>CSS TRANSFORM</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
 
+        .container {
+            background-color: darkgreen;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(252, 97, 7);
+            border: 2px solid black;
+            width: 400px;
+            height: 400px;
+            transition: all 0.5s ease-in;
+        }
+        .box:hover{
+            transform: skew(-20deg);
+   
+        }
+    </style>
 <body>
     <div class="container">
         <div class="box">
